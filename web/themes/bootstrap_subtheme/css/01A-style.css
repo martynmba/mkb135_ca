@@ -1,0 +1,162 @@
+/** FRONTPAGE */
+div#mb-frontpage-topleft-region {background-color: #ffffff; padding-left: 5px;}
+div#mb-frontpage-topright-region {background-color: #ffffff; }
+
+/** VIEW BANNER00 - TEMPLATE SET OF CSS SETTINGS XXXXXXXXXXXXXXXX 
+img.mb-banner-view00-img {padding: 10px; opacity: 1; } 
+img.mb-banner-view00-img:hover {padding: 10px; opacity: 0.7; } 
+img.mb-banner-view00-gif {padding: 0 0 0 0; }
+img.mb-banner-view00-img-overlay {padding: 0 0 0 0; opacity: 1; border:0; max-width:25%; } 
+ border:0; is added to prevent IE9 (and earlier) from displaying a border around the image (when the image is a link) 
+img.mb-banner-view00-img-overlay:hover { opacity: 0.7; border:0; background-color: #e8e8e7; } 
+img.mb-banner-view00-auximg {padding: opacity: 1; max-width:33%; float: right; } 
+img.mb-banner-view00-auximg:hover {opacity: 0.7; background-color: #e8e8e7; } 
+div.mb-banner-view00-video {padding-bottom: 20px; }
+div.mb-banner-view00-video-upload {padding-bottom: 20px; }
+div.mb-banner-view00-notice {padding: 0; } 
+img.mb-banner-view00-plugin-img {padding: 0 0 0 0; }
+div.mb-banner-view00-plugin-video {padding-bottom: 20px; }
+div.mb-banner-view00-plugin-notice {padding: 0 0 0 0; }
+a.mb-banner-view00-btn { padding: 0; position: absolute; left: 0; top: 10px; z-index: 3; opacity: 1.0; }
+a.mb-banner-view00-btn:hover { padding: 0; position: absolute; left: 0; top: 10px; z-index: 3; opacity: 0.7; } 
+ VIEW FRONTPAGE MEDIA OBJECTS 00 - MORE 
+img.mb-media-obj-view00-img-more {padding: 0 0 0 0; width:50%;}
+div.mb-media-obj-viewstyle00-video-more {padding: 0 0 0 0; width:50%;}
+div.mb-media-obj-viewstyle00-notice-more {padding: 0 0 0 0; }
+VIEW BANNER00 - END OF TEMPLATE SET  XXXXXXXXXXXXXXXX */
+
+/** VIEW BANNER11 */
+img.mb-banner-view11-gif {padding: 0 0 20px 0; }
+
+/** VIEW BANNER MEDIA OBJECTS 14 - TOP*/
+/** .mb-banner-media-obj-view014 {width:100%; margin:auto;}
+div.mb-banner-media-obj-view014-row {padding: 20px 0 20px 0; background-color: white; } 
+img.mb-banner-media-obj-view014-img {padding: 0 0 0 0; }
+div.mb-banner-media-obj-view014-video-upload {padding-bottom: 20px; max-width: 10%; background-color: yellow;}
+div.mb-banner-media-obj-view014-video {padding: 0 0 0 0; max-width: 50%; }
+div.mb-banner-media-obj-top-view014-notice {padding: 0 0 0 0; } */
+/** VIEW BANNER MEDIA OBJECTS 14 - TOP - MORE */
+/**img.mb-banner-media-obj-view014-img-more {padding: 0 0 0 0; width:50%;}
+div.mb-banner-media-obj-view014-video-upload-more {padding-bottom: 20px; }
+div.mb-banner-media-obj-viewstyle14-video-more {padding: 0 0 0 0; width:90%; margin:auto;}
+div.mb-banner-media-obj-viewstyle14-notice-more {padding: 0 0 0 0; } */
+
+
+/** VIEW BANNER MEDIA OBJECTS -14 - TOP */
+div.mb-banner-media-obj-viewstyle14-row {padding: 20px 0 0 7px; }
+img.mb-banner-media-obj-view14-img {padding: 0 0 0 0;}
+img.mb-banner-media-obj-view14-img-overlay { z-index: 3; position: absolute; left: 7px; top:0px; padding: 0 0 0 0; width:10%; border:0; background-color: lightblue;}
+img.mb-banner-media-obj-view14-img-overlay:hover { width:10.05%; border:0; background-color: yellow;}
+div.mb-banner-media-obj-viewstyle14-video {padding: 0 0 0 0; width:50%;}
+div.mb-banner-media-obj-viewstyle14-notice { padding: 0 20px 0 0; }
+/** VIEW BANNER MEDIA OBJECTS -14 - TOP - MORE */
+img.mb-banner-media-obj-view14-img-more {padding: 0 0 0 0;}
+div.mb-banner-media-obj-viewstyle14-video-more {padding: 0 0 0 0; width:90%;}
+div.mb-banner-media-obj-viewstyle14-notice-more {padding: 0 0 0 0; }
+
+
+/** VIEW BANNER11C PLUGIN NOTICE TOP - 11C */
+div.mb-banner-view11c-plugin-notice {margin: 20px 0; padding: 1px 7px 8px 7px;  background-color: red; border: 1px solid black;}
+/** VIEW BANNER03A */
+img.mb-banner-view03a-img-overlay {padding: 7px; border:0; max-width:30%; background-color: lightblue;} 
+img.mb-banner-view03a-img-overlay:hover { padding: 7px; border:0; background-color: #ffffff; } 
+img.mb-banner-view03a-img {padding: 0 } 
+img.mb-banner-view03a-auximg {padding: 7px; margin-bottom: 25px; max-width:33%; float: right; background-color: lightblue;} 
+img.mb-banner-view03a-auximg:hover {padding: 7px; margin-bottom: 25px; background-color: yellow; } 
+img.mb-banner-view03a-gif {padding: 7px; background-color: lightblue;} 
+img.mb-banner-view03a-gif:hover {padding: 7px; background-color: yellow; } 
+
+/** VIEW FRONTPAGE MEDIA OBJECTS -12 - RIGHT*/
+div.mb-media-obj-viewstyle12-row {padding: 20px 0 0 7px; }
+img.mb-media-obj-view12-img {padding: 0 0 0 0;}
+img.mb-media-obj-view12-img-overlay { z-index: 3; position: absolute; left: 7px; top:0px; padding: 0 0 0 0; width:20%; border:0; background-color: lightblue;}
+img.mb-media-obj-view12-img-overlay:hover { width:20.1%; border:0; background-color: yellow;}
+div.mb-media-obj-viewstyle12-video {padding: 0 0 0 0; width:50%;}
+div.mb-media-obj-viewstyle12-notice { padding: 0 20px 0 0; }
+/** VIEW FRONTPAGE MEDIA OBJECTS 12 - MORE */
+img.mb-media-obj-view12-img-more {padding: 0 0 0 0;}
+div.mb-media-obj-viewstyle12-video-more {padding: 0 0 0 0; width:90%;}
+div.mb-media-obj-viewstyle12-notice-more {padding: 0 0 0 0; }
+
+/** VIEW FRONTPAGE MEDIA OBJECTS -12 - RIGHT
+div.mb-media-obj-viewstyle12-row {padding: 20px 0 0 7px; }
+img.mb-media-obj-view12-img {padding: 0 0 0 0; }
+img.mb-media-obj-view12-img-overlay { position: absolute; left: 7px; top: 0px; padding: 0 0 0 0; width:10%; border:0; background-color: lightblue;}
+img.mb-media-obj-view12-img-overlay:hover { width:10.5%; border:0; background-color: yellow;}
+div.mb-media-obj-viewstyle12-video-upload {padding-bottom: 20px; }
+div.mb-media-obj-viewstyle12-video {padding: 0 0 0 0; width:50%;}
+div.mb-media-obj-viewstyle12-notice { padding: 0 20px 0 0; }
+/** VIEW FRONTPAGE MEDIA OBJECTS 12 - MORE 
+img.mb-media-obj-view12-img-more {padding: 0 0 0 0; width:50%;}
+div.mb-media-obj-viewstyle12-video-upload-more {padding-bottom: 20px; width: 50px; margin:auto;}
+div.mb-media-obj-viewstyle12-video-more {padding: 0 0 0 0; }
+div.mb-media-obj-viewstyle12-notice-more {padding: 0 0 0 0; } */
+
+/** Front gallery Custom 01 */
+img.mb-front-gallery-view01-img {padding: 0 0 0 0; }
+div.mb-front-gallery-view01-video {padding-bottom: 20px; }
+.mb-overlay-image h2 {display: none;}
+/** Hide the title of the Overlay gif plugin */
+.mb-overlay-gif h2 {display: none;}
+/** ckeditor Styles for Basic HTML text format - the result appears in view but not in edit.*/
+span.mb-red {color: red;}
+span.mb-blue {color: blue;}
+span.mb-green {color: green;}
+span.mb-white {color: white;}
+span.mb-yellow {color: yellow;}
+span.mb-lightblue {color: lightblue;}
+span.mb-black {color: #000000; }
+
+/** Global Utilities  */ 
+div.mb-flex100 img { width: 100%;} 
+div.mb-flex100 iframe { width: 100%;} 
+div.mb-flex100 audio { width: 100%;} 
+td.mb-flex50 { width: 50%;} 
+/** Flexslider  */
+.flex-direction-nav a {
+    display: block;
+    width: 40px;
+    height: 40px;
+    margin: -20px 0 0;
+    position: absolute;
+    top: 50%;
+    z-index: 10;
+    overflow: hidden;
+    opacity: 0;
+    cursor: pointer;
+    color: rgba(0, 0, 0, 0.8);
+    text-shadow: none;
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -ms-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+    color: #fff;
+    background-color: #000;
+    border-radius: 50%;
+    text-align: center;
+}
+.flex-direction-nav a:before {
+    font-family: "flexslider-icon";
+    font-size: 20px;
+    display: inline-block;
+    content: '\f001';
+    color: #FFF;
+    text-shadow: 1px 1px 0 rgba(255, 255, 255, 0.3);
+    line-height: 40px;
+}
+.flex-direction-nav .flex-next {
+    right: -50px;
+    text-align: center;
+}/** END OF Flexslider  */
+
+/** Magnific - global*/
+img.mfp-thumbnail { padding: 1px; float:left; }
+/** L123 images50 - Bootstrap Grid */
+.mb-row-l123-images50 img {width:100%; height:auto; padding:1px 0 1px 0; }
+div.col.col-xs-6.col-sm-6.col-md-6.col-lg-6.mb-row-l123-images50 { padding:0 1px 0 1px; }
+/** L123 images50 pop - Magnific */
+div.mb-l123-images50-pop .field--label {display: none; }
+
+
+

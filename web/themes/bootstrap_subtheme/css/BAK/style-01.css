@@ -1,0 +1,246 @@
+﻿/** NEW CODE */ 
+
+
+
+/** Grids L1 L2 L3 setup */
+div.mb-row-class-gallery {padding-left: 0; padding-right: 0;  }
+
+/** Front page gallery setup */
+div.mb-panels-frontpage-gallery div.panel-body { margin-left: -15px; margin-right: -15px; padding: 0; } 
+div.mb-row-class-front-gallery {padding-left: 0; padding-right: 0; } 
+
+/** To position L123 buttons */ 
+
+div.mb-row-class-gallery div.mb-l123-view-title-button  { padding-left: 0;padding-right: 0; position: absolute; right: 0; top: 0; z-index: 1; min-height: 1px; width:100%; } 
+
+/** To position L123 Rich text caption */ 
+
+div.mb-row-class-gallery div.mb-l123-view-richtext  { position: absolute; left: 0; line-height: 1.0; bottom: 0; z-index: 1; } 
+
+/** To position L123 Rich text caption in minipanel */ 
+div.mb-row-class-minipanel-image-pane div.mb-minipanel-view-richtext  { position: absolute; left: 0; line-height: 1.0; bottom: 45px; z-index: 1; } 
+
+/** END OF FRONT  */ 
+
+
+/** END OF FRONT  */ 
+
+/** END OF NEW CODE */ 
+/** Resizing font for various devices */ 
+/** H6 */ 
+/** Small devices (landscape phones, 544px and up) */ 
+@media (min-width: 544px) { h6 {font-size:1.5rem; line-height: 1.5rem;} /*1rem = 16px*/ } 
+/** Medium devices (tablets, 768px and up) The navbar toggle appears at this breakpoint */ 
+@media (min-width: 768px) { h6 {font-size:1.75rem; line-height: 2rem;} /*1rem = 16px*/ } 
+/** Large devices (desktops, 992px and up) */ 
+@media (min-width: 992px) { h6 {font-size:2.0rem; line-height: 2.5rem; } /*1rem = 16px*/ } 
+/** Extra large devices (large desktops, 1200px and up) */ 
+@media (min-width: 1200px) { h6 {font-size:2.5rem; line-height: 3.0rem; } /*1rem = 16px*/ } 
+/** H5 */ 
+/** EXAMPLE - h1 {font-size:2.75rem;color:red;} */ 
+@media (min-width: 544px) { h5 {font-size:2.10rem; line-height: 3rem; } } 
+@media (min-width: 768px) { h5 {font-size:2.75rem; line-height: 3.5rem; } } 
+@media (min-width: 992px) { h5 {font-size:3.25rem; line-height: 4rem; } } 
+@media (min-width: 1200px) { h5 {font-size:3.75rem; line-height: 6rem; } } 
+/** BANNER 03 */ 
+#mb-front03-banner-text .container-fluid {padding-left: 0em; } 
+div.mb-view-pane-banner-03 .views-row-odd {padding-left: 0em; padding-right: 0em; } 
+div.mb-view-banner03-text-overlay h5 { margin-top:1.5em; margin-bottom:0.5em; } 
+div.mb-view-banner03-text-overlay h6 { margin-top:0.5em; margin-bottom:0.5em; } 
+/** BANNER 04 */ 
+#mb-front04-banner-text .container-fluid {padding-left: 0em; } 
+div.mb-view-pane-banner-04 .views-row-odd {padding-left: 0em; padding-right: 0em; } 
+div.mb-view-banner04-text-overlay h5 { margin-top:1.5em; margin-bottom:0.5em; } 
+div.mb-view-banner04-text-overlay h6 { margin-top:0.5em; margin-bottom:0.5em; } 
+/** BANNER 05 */ 
+#mb-front05-banner-text .container-fluid {padding-left: 0em; } 
+div.view-front05-banner-images .views-row-odd {padding-left: 0em; padding-right: 0em; } 
+div.view-front05-banner-images .views-row-even {padding-left: 0em; padding-right: 0em; } 
+div.mb-view-banner05-text-overlay h5 { margin-left: 0; margin-top:4em; margin-bottom:0.5em; } 
+div.mb-view-banner05-text-overlay h6 { margin-left: 0; margin-top:0.5em; margin-bottom:0.5em; } 
+/** END OF BANNERS */
+/** Body BACKGROUND IMAGE AND/OR COLOR */ 
+/** body.front { background-color: #EFF7FF; } */ 
+body.front { background: url("images/ellie-goulding.png"); } 
+/** body.front { background: red url("images/tina-front-background.png") no-repeat fixed left; background-size:50% auto; } */ 
+/** body.not-front { background: #EFF7FF url("images/front-background.png"); } */ 
+body.not-front { background: url("images/ellie-goulding.png"); } 
+/** Z-INDEX */ 
+#admin-menu { z-index: 9999;} 
+#navbar { z-index: 888;} 
+#block-views-dropdown-menu-block-1 { z-index: 881;} 
+#block-views-dropdown-menu-block-2 { z-index: 880;} 
+/** FULL WIDTH NAVBAR */ 
+#navbar.navbar.navbar-inverse {background-color: #B4D6DA; border-color:#B4D6DA; padding-left: 65px; padding-top:21px; margin: 0 0 0 px; } 
+.navbar-inverse .navbar-collapse { border-color: #B4D6DA; padding-left: 0; padding-right: 0; } 
+.navbar-inverse .navbar-form { border-color: #B4D6DA; padding-left: 0; padding-right: 0; } 
+#block-block-3.social-icon p { font-size: 40px; margin: 10px 40px 0 0; } 
+/** NOT ACTIVE */ 
+.navbar-inverse .navbar-nav > li > a { padding: 10px 10px 10px 10px; background-color: #B4D6DA; color: #A89366; } 
+/** NOT ACTIVE - HOVER */ 
+.navbar-inverse .navbar-nav > li > a:hover { background-color: #5f6f81; color: #ffffff; } 
+/** ACTIVE */ 
+.navbar-inverse .navbar-nav > .active > a { background-color: #9BD4DA; color: red;} 
+/** ACTIVE and HOVER */ 
+.navbar-inverse .navbar-nav > .active > a:hover { background-color: #5f6f81; color: yellow;} 
+.navbar-nav { float: left; margin:0; } 
+.navbar-inverse .navbar-nav > li >  a.glyphicon { padding-top: 6px; } 
+/** Social Media */ 
+div.navbar-header .navbar-toggle { padding: 11px 10px; position: relative; }
+/** Auxilliary navbar - Collapsing */ 
+.mb-view-aux-menu3 .navbar.navbar-default { margin-bottom: 0; border-color: #B4D6DA; } 
+.mb-view-aux-menu3  .container-fluid { padding-bottom: 0; padding-top: 15px; padding-right: 0px; background-color: #B4D6DA; } 
+/** Panel - Pane - Grid L123 images */
+#mb-panel-id-l123 { padding-top: 15px; padding-left: 15px; padding-right: 15px; } 
+.mb-panel-123-images-css .panel-body { padding: 0; background-color: #B4D6DA; } 
+.mb-pane-grid123-images div.row { margin: 0; } 
+.mb-pane-grid123-images div.col {  margin: 0; min-height: 0; padding: 0; } 
+/** Panels - Color and Border Color */
+div.row  > .panel-bootstrap-pane.panel.panel-default.pane-panels-mini { background-color: #ffffff; border-color: #ffffff; }
+div.panel-bootstrap-pane.well.pane-block.pane-search-form  { background-color: #E7F2FF; }
+div.panel-bootstrap-pane.panel.panel-default.pane-panels-mini.pane-minipanel-l1 { background-color: #E7F2FF; }
+div.panel-bootstrap-pane.panel.panel-default.pane-views-panes.pane-custom-grid-l123-images-panel-pane-1 { background-color: #fff; border-color: transparent; }
+div.panel-bootstrap-pane.panel.panel-default.pane-views-panes.pane-custom-grid-l123-images-panel-pane-1 { padding-left: 0; padding-right: 0; border: 0; }
+div.panel-body { background-color: #EFF7FF; }
+/** FOOTABLE */ 
+td.mb-img-min-max-width-145x200 {min-width: 145px; max-width: 200px;}
+table.footable{ margin-top: 25px; margin-bottom: 25px; } 
+.footable thead { background-color: #cef4fb; line-height: normal; border: 1px solid lightblue; } 
+.mb-footable-row-class td, th { padding: 5px;line-height: normal; border: 1px solid lightblue; } 
+.odd.mb-footable-row-class { background-color: #eff9fb; line-height: normal; } 
+.even.mb-footable-row-class { background-color: #fff; line-height: normal; } 
+.footable-row-detail-cell { background-color: yellow; line-height: normal; } 
+.footable-row-detail-value { line-height: normal; } 
+.footable-toggle { background-color: yellow; }
+/** OVERLAYS */
+/** Overlay List */ 
+div.mb-page-overlay-list div.row { margin-bottom: 15px; } 
+div.mb-page-overlay-list div.col { margin-bottom: 15px; } 
+.mb-promo-view-banner-text-overlay p { padding-left: 20px; padding-right: 20px; } 
+/** L123 */ 
+/** Overlay Notice L123 */ 
+div.mb-view-overlay-notice  { padding: 0; position: absolute; top: 5px; z-index: 2; min-height: 1px; } 
+.mb-view-overlay-notice p { padding-left: 5px; padding-right: 5px; } 
+/** Position level1-featured overlay correctly */ 
+.mb-pane-level1-featured div .mb-node-promo-view-overlay  { padding-left: 7px;padding-right: 7px; position: absolute; right: 0; top: 0; z-index: 1; min-height: 1px; width:100%; } 
+/** NOT FRONT */ 
+/** Overlay IMAGE */ 
+div.mb-node-promo-view-overlay  { padding-left: 0;padding-right: 0; position: absolute; right: 0; top: 0; z-index: 1; min-height: 1px; width:100%; } 
+/** FRONT */ 
+div.mb-container { margin-top: 65px; padding-top: 0; padding-bottom: 15px; } 
+#mb-panel-front-general-03-id > .row { margin-bottom: 15px;} 
+#mb-panel-front-general-03-id > .row > .panel-panel.top { padding-left: 0px; padding-right: 0px; } 
+/** Gallery-front03 MARGINS AND PADDING */ 
+.mb-view-front03-gallery .col { padding-left: 0px; padding-right: 0px; } 
+.mb-view-front03-gallery .row { margin-left: 0px; margin-right:0px; } 
+.mb-panel-front03-gallery .panel-body { padding-top: 0; padding-bottom: 0; padding-left: 0; padding-right: 0;} 
+/** FRONT BANNERS */ 
+/** To position Overlay IMAGE	in Banner */ 
+div.mb-node-promo-view-banner-overlay  { padding: 0; position: absolute; right: 0; top: 0; z-index: 3; min-height: 1px; width:100%; } 
+.mb-node-promo-view-banner-overlay img { padding-left: 15px; padding-right: 15px; } 
+/** To position the Banner Overlay TEXT */ 
+div.mb-promo-view-banner-text-overlay  { position: absolute; top: 5px; z-index: 2; min-height: 1px; width:100%; } 
+/** FRONT GALLERY */ 
+/** Front gallery buttons (LINK) */
+div.mb-node-view-front-gallery-button  { position: absolute; top: 0; z-index: 3; min-height: 1px; width:100%; }
+/** Position Gallery-front03 overlay IMAGE correctly */ 
+.mb-view-front03-gallery div.mb-node-promo-view-overlay  { padding-left: 0;padding-right: 0; position: absolute; right: 0; top: 0; z-index: 1; min-height: 1px; width:100%; } 
+/** END OF FRONT  */ 
+/** CONTENT LINKED FROM FRONT PAGE 03 */ 
+/** FEATURED VIEW */
+div.mb-pane-level1-featured div.col { padding-left: 7px; padding-right: 7px; margin-bottom: 7px;  }
+/** Recent sales */ 
+div#views-bootstrap-grid-5 p { margin-bottom: 0; } 
+/** More link */ 
+div.more-link a { font-size: 14px; } 
+/** Position the recent sales caption correctly */ 
+div#views-bootstrap-grid-1.views-bootstrap-grid-plugin-style p { margin-bottom: 0;} 
+.mb-panel-front-sales .panel-body { padding-left: 7px; padding-right: 7px; } 
+.mb-pane-front-recent-sales .col { padding-left: 7px; padding-right: 7px; margin-bottom: 7px; } 
+/** Video Posts */
+div.mb-page-video-latest-posts div.row { margin-bottom: 15px; } 
+div.mb-page-video-latest-posts div.col { margin-bottom: 15px; } 
+/** Latest Article */
+div.mb-pane-front-latest-articles div.row { margin-bottom: 7px; } 
+div.mb-pane-front-latest-articles div.col { margin-bottom: 7px; }
+/** For demo various files view */ 
+div.mb-views-various-files { padding: 25px; } 
+/** Flexslider  */
+ol.flex-control-thumbs img { padding: 3px; }
+div.flexslider-processed img {padding: 3px; }
+.flex-direction-nav a { color: rgba(0, 255, 0, 0.5); height: 60px; }
+.flexslider { box-shadow: 0 0 0 rgba(0, 0, 0, 0.2); margin: 0 0 15px; }
+/** Magnific */
+img.mfp-thumbnail { padding: 3px; }
+/** Photoswipe */
+.photoswipe-gallery img { padding: 0 0 3px 0; }
+/** ADDRESSFIELD */
+div.views-field.views-field-field-promo-postal-address .field-content { background-color: #fff; border: 1px solid transparent; border-radius: 4px; margin-bottom: 20px; border-color: blue; padding: 15px; font-size: 20px; color: #000; }	
+div.addressfield-container-inline.locality-block.country-CA span.locality { margin-bottom: 0; }
+div.addressfield-container-inline.locality-block.country-CA span.state { padding: 5px; }
+div.addressfield-container-inline.locality-block.country-CA span.postal-code { padding: 5px;  }
+div.views-field.views-field-field-promo-postal-address .name-block {font-size: 20px; margin-bottom: 10px; }
+div.views-field.views-field-field-promo-postal-address span.organisation-name { font-size: 25px; }
+div.views-field.views-field-field-promo-postal-address .street-block .thoroughfare { padding: 0; margin-top: 10px;}
+div.views-field.views-field-field-promo-postal-address .locality-block { padding: 5px; }
+div.views-field.views-field-field-promo-postal-address .addressfield-phone-block { background-color: #D9EDF7; padding: 5px 15px 15px;  margin-bottom: 10px; margin-top: 10px; }
+div.views-field.views-field-field-promo-postal-address .addressfield-phone-block .phone-number { background-color: #D9EDF7; margin-top: 5px; }
+div.views-field.views-field-field-promo-postal-address .addressfield-phone-block .phone-extension { background-color: transparent; margin-bottom: 15px; }
+div.views-field.views-field-field-promo-postal-address .addressfield-phone-block .addressfield-phone-label {background-color: transparent; margin-top: 15px; }
+div.views-field.views-field-field-promo-postal-address span.country { color: red; }
+/** NODE ADD/EDIT FORMS */ 
+/** OBSOLETEFix the checkbox and radio buttons due to full width site 
+.radio input[type="radio"], .radio-inline input[type="radio"], .checkbox input[type="checkbox"], .checkbox-inline input[type="checkbox"] { margin-left: 0px; position: relative; }
+.checkbox input[type="checkbox"], .checkbox-inline input[type="checkbox"], .radio input[type="radio"], .radio-inline input[type="radio"] { margin-left: 0; position: relative; }
+*/
+/** RATING */
+#rating-entityform-edit-form .text-full.form-control {width: 500px; } 
+#edit-field-your-email-und-0-email {width: 500px; } 
+div.image-widget-data .form-control { background-color: #f5f5f5; border: none; box-shadow: 0 0 0 rgba(0, 0, 0, 0.075) inset; height: 34px; padding: 0; margin-bottom: 15px; margin-top: 15px; }  
+/** Fix panel headings in add/edit images and video fields 
+section#block-system-main { position: relative; top: 50px; } 
+/** BANNER */
+#banner-node-form .row  { margin-left: 0; margin-right: 0;}
+/** User Login */ 
+#user-login { background-color: #B4D6DA; max-width: 520px; margin: auto; margin-top: 50px; margin-bottom: 25px; } 
+/** Global Utilities  */ 
+div.mb-flex100 img { width: 100%;} 
+div.mb-flex100 iframe { width: 100%;} 
+div.mb-flex100 audio { width: 100%;} 
+div.mb-flex50 img { width: 50%;} 
+div.mb-flex50 iframe { width: 50%;} 
+div.mb-flex50 audio { width: 50%;} 
+div.mb-flex25 img { width: 25%;} 
+div.mb-flex25 iframe { width: 25%;} 
+div.mb-flex25 audio { width: 25%;} 
+/** Linked images */ 
+.mb-linked{opacity: 1; } 
+.mb-linked:hover{opacity: 0.7; } 
+/** STANDARD STYLES FOR EXISTING FIELDS USED IN VIEWS*/ 
+div.mb-img-title {padding: 0; margin: 0;} 
+div.mb-img-description {padding: 0; margin: 0;} 
+div.mb-img-richtext-caption {padding: 0; margin: 0;} 
+div.mb-img-simple-caption {padding: 0; margin: 0;} 
+/** END OF STANDARD STYLES FOR EXISTING FIELDS USED IN VIEWS*/
+/** HIDES */
+/** Hide the page header */ 
+h1.page-header { display: none; } 
+/** HIDE ITEMS ON THE NODE ADD/EDIT FORMS */ 
+/** Hide the text format docs */ 
+fieldset.filter-wrapper { display: none; } 
+/** Hide the admin tags XXXXXXX BREAK THIS TO ALLOW ADMIN TO SET THE ADMIN TAG VALUE(S) */ 
+#edit-field-admin-tag { display: none; } 
+/** Hide the node add/edit general form XXXXXXX BREAK THIS TO ENABLE THE GENERAL FORM */ 
+form.node-form .tabbable  { display: none; }
+/** TWEAKS */ 
+/** Fix the Entity Ref View Widget check boxes */
+td.views-field.views-field-entityreference-view-widget .entity-reference-view-widget-select.form-checkbox { margin-left: 0; margin-top: -8px; }
+/* Style the node_clone local action */
+ul.action-links {background-color: #D9EDF7; padding: 10px; margin-top: 10px; width: 220px; }
+/** Accordion title spacing */
+a.accordion-toggle p {margin-bottom: 0; }
+/* Color of ruled line <hr>  */ 
+hr { border-color: grey; } 
+div.mb-hr-color  hr { border-color: lightgray; }
+/** Price */ 
+div.mb-view-price  { font-size: 22px; }
